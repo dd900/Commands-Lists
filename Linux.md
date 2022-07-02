@@ -48,6 +48,8 @@ You can check this with
 ##
 
 <br/>
+<details>
+<p>
 <summary><h1>Start Ubuntu in Text Mode</h1></summary>
 
 1. ```sudo nano /etc/default/grub```
@@ -66,6 +68,8 @@ You can check this with
 
 8. ```sudo reboot```
 
+<details>
+<p>
 <summary><h2>Undoing Text Mode</h2></summary>
 
 1. ```sudo nano /etc/default/grub```
@@ -84,11 +88,17 @@ You can check this with
 
 8. ```sudo reboot```
 
+</p>
+</details>
+</p>
+</details>
+
 ##
 
 <br/>
+<details>
+<p>
 <summary><h1>Turn Off "Energy Efficient Ethernet"</h1></summary>
-<font size="2">
 
 1. ```sudo nano /etc/default/grub```
 
@@ -99,6 +109,9 @@ You can check this with
 4. ```sudo update-grub```
 
 5. ```sudo reboot```
+
+</p>
+</details>
 
 ##
 
