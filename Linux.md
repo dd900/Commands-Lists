@@ -116,4 +116,15 @@ You can check this with
 ##
 
 <br/>
+<details>
+<p>
+<summary><h1>Download to Directory</h1></summary>
 
+- ```sudo wget www.url.com -P /path/to/dir```
+
+</p>
+</details>
+
+##
+
+<br/>
