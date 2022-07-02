@@ -1,28 +1,28 @@
 <details>
-	<summary><h1>Toggle Display</h1></summary>
-		<p>
+<summary><h1>Toggle Display</h1></summary>
+<p>
 
-		- ```xset dpms force off```
+- ```xset dpms force off```
 
-		- ```xset dpms force on```
+- ```xset dpms force on```
 
-		- However, you need to make sure that your acpi is enabled.
-		You can check this with
-			* ```cat /proc/acpi/info```
-			
-			<details>	
-				<summary><h2>vbetool</h2></summary>
-					<p>
-						
-					- ```sudo apt-get install vbetool```
-							
-					- ```sudo vbetool dpms on```
+- However, you need to make sure that your acpi is enabled.
+You can check this with
+* ```cat /proc/acpi/info```
 
-					- ```sudo vbetool dpms off```
-				
-					</p>	
-			</details>
-		</p>
+<details>	
+<summary><h2>vbetool</h2></summary>
+<p>
+	
+- ```sudo apt-get install vbetool```
+		
+- ```sudo vbetool dpms on```
+
+- ```sudo vbetool dpms off```
+
+</p>	
+</details>
+</p>
 </details>
 
 ##
