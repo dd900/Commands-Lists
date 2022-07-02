@@ -1,26 +1,35 @@
-<font size="2">
-<font size="5" style="font-weight:bold;">Toggle Display</font>
+<details>
+<summary><h1>Toggle Display</h1></summary>
+<p>
 
-```xset dpms force off```
+- ```xset dpms force off```
 
-```xset dpms force on```
+- ```xset dpms force on```
 
 - However, you need to make sure that your acpi is enabled.
 You can check this with
 	* ```cat /proc/acpi/info```
-	
-<font size="4" style="font-weight:600;">vbetool</font>
+<details>	
+<summary><h2>vbetool</h2></summary>
+<p>
 	
 - ```sudo apt-get install vbetool```
 		
 - ```sudo vbetool dpms on```
 
 - ```sudo vbetool dpms off```
+	
+</p>	
+</details>
+</p>
+</details>
 
 ##
 
 <br/>
-<font size="5" style="font-weight:bold;">USB 3.0 express card</font>
+<details>
+<p>
+<summary><h1>USB 3.0 express card</h1></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -32,6 +41,9 @@ You can check this with
 
 5. ```sudo reboot```
 
+</p>	
+</details>	
+	
 ##
 
 <br/>
