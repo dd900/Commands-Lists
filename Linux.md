@@ -1,27 +1,28 @@
 <details>
-<summary><h1>Toggle Display</h1></summary>
-<p>
+	<summary><h1>Toggle Display</h1></summary>
+		<p>
 
-- ```xset dpms force off```
+		- ```xset dpms force off```
 
-- ```xset dpms force on```
+		- ```xset dpms force on```
 
-- However, you need to make sure that your acpi is enabled.
-You can check this with
-	* ```cat /proc/acpi/info```
-<details>	
-<summary><h2>vbetool</h2></summary>
-<p>
-	
-- ```sudo apt-get install vbetool```
-		
-- ```sudo vbetool dpms on```
+		- However, you need to make sure that your acpi is enabled.
+		You can check this with
+			* ```cat /proc/acpi/info```
+			
+			<details>	
+				<summary><h2>vbetool</h2></summary>
+					<p>
+						
+					- ```sudo apt-get install vbetool```
+							
+					- ```sudo vbetool dpms on```
 
-- ```sudo vbetool dpms off```
-	
-</p>	
-</details>
-</p>
+					- ```sudo vbetool dpms off```
+				
+					</p>	
+			</details>
+		</p>
 </details>
 
 ##
@@ -47,7 +48,7 @@ You can check this with
 ##
 
 <br/>
-<font size="5" style="font-weight:bold;">Start Ubuntu in Text Mode</font>
+<summary><h1>Start Ubuntu in Text Mode</h1></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -65,7 +66,7 @@ You can check this with
 
 8. ```sudo reboot```
 
-<font size="4" style="font-weight:600;">Undoing Text Mode</font>
+<summary><h2>Undoing Text Mode</h2></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -86,7 +87,7 @@ You can check this with
 ##
 
 <br/>
-<font size="5" style="font-weight:bold;">Turn Off "Energy Efficient Ethernet"</font>
+<summary><h1>Turn Off "Energy Efficient Ethernet"</h1></summary>
 <font size="2">
 
 1. ```sudo nano /etc/default/grub```
@@ -102,4 +103,4 @@ You can check this with
 ##
 
 <br/>
-</font>
+
