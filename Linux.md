@@ -24,9 +24,6 @@ You can check this with
 </details>
 </p>
 </details>
-
-##
-
 <br/>
 <details>
 <p>
@@ -44,9 +41,6 @@ You can check this with
 
 </p>	
 </details>	
-	
-##
-
 <br/>
 <details>
 <p>
@@ -92,9 +86,6 @@ You can check this with
 </details>
 </p>
 </details>
-
-##
-
 <br/>
 <details>
 <p>
@@ -112,9 +103,6 @@ You can check this with
 
 </p>
 </details>
-
-##
-
 <br/>
 <details>
 <p>
@@ -124,9 +112,6 @@ You can check this with
 
 </p>
 </details>
-
-##
-
 <br/>
 <details>
 <p>
