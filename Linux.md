@@ -104,14 +104,10 @@ You can check this with
 </p>
 </details>
 <br/>
-<details>
-<p>
-<summary><h1>Download to Directory</h1></summary>
+<h1>Download to Directory</h1>
 
 - ```sudo wget www.url.com -P /path/to/dir```
 
-</p>
-</details>
 <br/>
 <details>
 <p>
