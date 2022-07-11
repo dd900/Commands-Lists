@@ -131,7 +131,4 @@ You can check this with
 	
 </p>
 </details>
-
-##
-
 <br/>
