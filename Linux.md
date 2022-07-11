@@ -1,17 +1,18 @@
 <details>
-<summary><h1>Toggle Display</h1></summary>
+<summary><h3>Toggle Display</h3></summary>
 <p>
-
+	
 - ```xset dpms force off```
-
+	
 - ```xset dpms force on```
-
+	
 - However, you need to make sure that your acpi is enabled.
 You can check this with
+	
 	* ```cat /proc/acpi/info```
-
+	
 <details>	
-<summary><h2>vbetool</h2></summary>
+<summary><h3>vbetool</h3></summary>
 <p>
 	
 - ```sudo apt-get install vbetool```
@@ -27,7 +28,7 @@ You can check this with
 <br/>
 <details>
 <p>
-<summary><h1>USB 3.0 express card</h1></summary>
+<summary><h3>USB 3.0 express card</h3></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -44,7 +45,7 @@ You can check this with
 <br/>
 <details>
 <p>
-<summary><h1>Start Ubuntu in Text Mode</h1></summary>
+<summary><h3>Start Ubuntu in Text Mode</h3></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -64,7 +65,7 @@ You can check this with
 
 <details>
 <p>
-<summary><h2>Undoing Text Mode</h2></summary>
+<summary><h3>Undoing Text Mode</h3></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -89,7 +90,7 @@ You can check this with
 <br/>
 <details>
 <p>
-<summary><h1>Turn Off "Energy Efficient Ethernet"</h1></summary>
+<summary><h3>Turn Off "Energy Efficient Ethernet"</h3></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -104,14 +105,18 @@ You can check this with
 </p>
 </details>
 <br/>
-<h1>Download to Directory</h1>
+<details>
+<p>
+<summary><h3>Download to Directory</h3></summary>
 
 - ```sudo wget www.url.com -P /path/to/dir```
 
+</p>
+</details>
 <br/>
 <details>
 <p>
-<summary><h1>How to check cron logs in Ubuntu</h1></summary>
+<summary><h3>How to check cron logs</h3></summary>
 
 - ```sudo systemctl status cron```
 	
@@ -124,6 +129,20 @@ You can check this with
 - ```journalctl -u cron.service```
 	
 - ```journalctl -u anacron.service```
+	
+</p>
+</details>
+<br/>
+</p>
+</details>
+<br/>
+<details>
+<p>
+<summary><h3>Docker</h3></summary>
+
+set all containers to restart unless-stopped
+	
+- ```docker update --restart unless-stopped $(docker ps -q)```
 	
 </p>
 </details>
