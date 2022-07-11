@@ -8,7 +8,7 @@
 
 - However, you need to make sure that your acpi is enabled.
 You can check this with
-* ```cat /proc/acpi/info```
+	* ```cat /proc/acpi/info```
 
 <details>	
 <summary><h2>vbetool</h2></summary>
