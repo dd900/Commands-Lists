@@ -128,3 +128,25 @@ You can check this with
 ##
 
 <br/>
+<details>
+<p>
+<summary><h1>How to check cron logs in Ubuntu</h1></summary>
+
+- ```sudo systemctl status cron```
+	
+- ```ps aux | grep cron```
+	
+- ```grep cron /var/log/syslog```
+	
+	* ```grep -i cron /var/log/syslog```
+	
+- ```journalctl -u cron.service```
+	
+- ```journalctl -u anacron.service```
+	
+</p>
+</details>
+
+##
+
+<br/>
