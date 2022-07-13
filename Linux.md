@@ -144,3 +144,22 @@ set all containers to restart unless-stopped
 </p>
 </details>
 <br/>
+<details>
+<p>
+<summary><h4>NGINX</h4></summary>
+
+Link sites-available to sites-enabled
+
+- ```sudo ln -s /etc/nginx/sites-available/sitename /etc/nginx/sites-enabled/```
+
+Check nginx config
+
+- ```sudo nginx -t```
+
+Restart nginx
+
+- ```sudo systemctl restart nginx```
+
+</p>
+</details>
+<br/>
