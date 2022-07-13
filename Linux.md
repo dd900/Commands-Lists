@@ -1,5 +1,5 @@
 <details>
-<summary><h3>Toggle Display</h3></summary>
+<summary><h4>Toggle Display</h4></summary>
 <p>
 	
 - ```xset dpms force off```
@@ -12,7 +12,7 @@ You can check this with
 	* ```cat /proc/acpi/info```
 	
 <details>	
-<summary><h3>vbetool</h3></summary>
+<summary><h4>vbetool</h4></summary>
 <p>
 	
 - ```sudo apt-get install vbetool```
@@ -28,7 +28,7 @@ You can check this with
 <br/>
 <details>
 <p>
-<summary><h3>USB 3.0 express card</h3></summary>
+<summary><h4>USB 3.0 express card</h4></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -45,7 +45,7 @@ You can check this with
 <br/>
 <details>
 <p>
-<summary><h3>Start Ubuntu in Text Mode</h3></summary>
+<summary><h4>Start Ubuntu in Text Mode</h4></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -65,7 +65,7 @@ You can check this with
 
 <details>
 <p>
-<summary><h3>Undoing Text Mode</h3></summary>
+<summary><h4>Undoing Text Mode</h4></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -90,7 +90,7 @@ You can check this with
 <br/>
 <details>
 <p>
-<summary><h3>Turn Off "Energy Efficient Ethernet"</h3></summary>
+<summary><h4>Turn Off "Energy Efficient Ethernet"</h4></summary>
 
 1. ```sudo nano /etc/default/grub```
 
@@ -107,7 +107,7 @@ You can check this with
 <br/>
 <details>
 <p>
-<summary><h3>Download to Directory</h3></summary>
+<summary><h4>Download to Directory</h4></summary>
 
 - ```sudo wget www.url.com -P /path/to/dir```
 
@@ -116,7 +116,7 @@ You can check this with
 <br/>
 <details>
 <p>
-<summary><h3>How to check cron logs</h3></summary>
+<summary><h4>How to check cron logs</h4></summary>
 
 - ```sudo systemctl status cron```
 	
@@ -133,12 +133,9 @@ You can check this with
 </p>
 </details>
 <br/>
-</p>
-</details>
-<br/>
 <details>
 <p>
-<summary><h3>Docker</h3></summary>
+<summary><h4>Docker</h4></summary>
 
 set all containers to restart unless-stopped
 	
